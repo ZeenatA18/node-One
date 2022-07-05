@@ -5,6 +5,7 @@ return "Hello, " + neighbor
 var msg = greet('Xola')
 console.log(msg)*/
 
-module.exports = function(name){
+function greet (name){
     return 'Hello, ' + name;
 }
+export default greet
